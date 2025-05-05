@@ -1,1 +1,99 @@
+### ✅ Code:
+
+```java
+import java.util.Scanner;
+```
+
+**Explanation:**
+
+* `import`: This keyword is used to bring in other Java classes/packages into your current file.
+* `java.util.Scanner`: This tells Java to use the `Scanner` class from the `java.util` package. The `Scanner` class is used to take input from the user.
+
+---
+
+### ✅ Code:
+
+```java
+class Main {
+```
+
+**Explanation:**
+
+* `class`: A keyword to declare a class (a blueprint for creating objects).
+* `Main`: The name of the class. In Java, the program starts execution from the class that contains the `main` method.
+
+---
+
+### ✅ Code:
+
+```java
+    public static void main(String[] args){
+```
+
+**Explanation:**
+
+* `public`: Access modifier; means the method is accessible from anywhere.
+* `static`: Means this method belongs to the class, not instances of the class.
+* `void`: Return type; means the method does not return any value.
+* `main`: The name of the method where Java looks to start program execution.
+* `String[] args`: A parameter used to accept command-line arguments (an array of `String`s).
+
+---
+
+### ✅ Code:
+
+```java
+        Scanner sc = new Scanner(System.in);
+```
+
+**Explanation:**
+
+* `Scanner`: A Java class used for input.
+* `sc`: Variable name for the Scanner object (you can name it anything).
+* `new`: Keyword used to create new objects.
+* `Scanner(System.in)`: Creates a Scanner that reads input from the keyboard (`System.in` is standard input).
+
+---
+
+### ✅ Code:
+
+```java
+        int a = sc.nextInt();
+```
+
+**Explanation:**
+
+* `int`: A primitive data type that stores integers.
+* `a`: Variable name.
+* `sc.nextInt()`: Calls the `nextInt()` method on the Scanner object to read an integer input from the user.
+
+---
+
+### ✅ Code:
+
+```java
+        System.out.println(a);
+```
+
+**Explanation:**
+
+* `System.out`: Refers to the standard output (usually the console).
+* `println(a)`: Prints the value of `a` followed by a new line.
+
+---
+
+### ✅ Code:
+
+```java
+    }
+}
+```
+
+**Explanation:**
+
+* These closing braces end the `main` method and the `Main` class.
+
+---
+
+Would you like this same explanation in simpler or more beginner-friendly terms?
 
